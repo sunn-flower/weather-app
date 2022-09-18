@@ -3,16 +3,7 @@ body {
 	color: #3d405b;
 }
 
-.weather-app {
-	max-width: 800px;
-	margin: 50px auto;
-	padding: 30px;
-	border: 2px solid #3d405b;
-	border-radius: 10px;
-}
-
 h1 {
-	color: #3d405b;
 	font-size: 36px;
 	line-height: 33px;
 	margin-bottom: 2px;
@@ -26,8 +17,35 @@ ul {
 li {
 	list-style: none;
 	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+
+.weather-widget {
+	padding: 30px;
+	border: 2px solid #3d405b;
+	border-radius: 10px;
+}
+
+.widget-wrapper {
+	max-width: 800px;
+	margin: 50px auto;
+}
+
+.current-overview {
+	margin-top: 20px;
 }
 
 .code-info {
-	color: #3d405b;
+	margin-left: 32px;
+	font-size: 12px;
+}
+
+.current-overview img {
+	margin-right: 10px;
+}
+
+#current-weather-icon {
+	width: 50px;
 }
