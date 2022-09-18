@@ -16,10 +16,12 @@ ul {
 
 li {
 	list-style: none;
-	font-size: 16px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
 	margin: 0;
+	margin-left: 2px;
 	padding: 0;
-	line-height: 18px;
+	line-height: 16px;
 }
 
 .weather-widget {
@@ -45,6 +47,8 @@ li {
 .units {
 	position: relative;
 	font-size: 13px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	line-height: 16px;
 	top: -33px;
 }
 
