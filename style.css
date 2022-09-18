@@ -42,10 +42,20 @@ li {
 	font-size: 12px;
 }
 
-.current-overview img {
-	margin-right: 10px;
+.units {
+	position: relative;
+	font-size: 13px;
+	top: -33px;
 }
 
 #current-weather-icon {
 	width: 50px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+#temperature {
+	font-size: 60px;
+	line-height: 1;
+	font-weight: 500;
 }
