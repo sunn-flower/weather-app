@@ -1,5 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	color: #3d405b;
 }
 
 .weather-app {
@@ -12,6 +13,19 @@ body {
 
 h1 {
 	color: #3d405b;
+	font-size: 36px;
+	line-height: 33px;
+	margin-bottom: 2px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style: none;
+	font-size: 16px;
 }
 
 .code-info {
