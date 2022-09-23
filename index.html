@@ -10,10 +10,7 @@
 			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
 			crossorigin="anonymous"
 		/>
-		<script
-			src="https://kit.fontawesome.com/14e57511b5.js"
-			crossorigin="anonymous"
-		></script>
+		<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 		<link rel="stylesheet" href="style.css" />
 		<title>Weather</title>
 	</head>
@@ -21,10 +18,10 @@
 		<div class="container">
 			<div class="widget-wrapper">
 				<div class="weather-widget">
-					<h1>Elko, NV, USA</h1>
+					<h1 id="current-city">Elko, NV, USA</h1>
 					<ul>
 						<li>Friday 21:02</li>
-						<li>Clear Skies</li>
+						<li id="current-condition">Clear Skies</li>
 					</ul>
 					<div class="row">
 						<div class="col-6">
