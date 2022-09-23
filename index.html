@@ -18,10 +18,10 @@
 		<div class="container">
 			<div class="widget-wrapper">
 				<div class="weather-widget">
-					<h1 id="current-city">Elko, NV, USA</h1>
-					<ul>
+					<h1 id="current-city"></h1>
+					<ul id="current-overview">
 						<li>Friday 21:02</li>
-						<li id="current-condition">Clear Skies</li>
+						<li id="current-condition"></li>
 					</ul>
 					<div class="row">
 						<div class="col-6">
@@ -32,18 +32,18 @@
 									id="current-weather-icon"
 								/>
 								<div>
-									<strong id="current-temperature">12</strong>
+									<strong id="current-temperature"></strong>
 									<span class="units"
 										>°F | <a href="#" id="unit-link">°C</a></span
 									>
 								</div>
 							</div>
 						</div>
-						<div class="col-6 current-overview">
-							<ul>
+						<div class="col-6">
+							<ul id="current-info">
 								<li>Precipitation</li>
-								<li>Humidity</li>
-								<li>Wind</li>
+								<li>Humidity: <span id="humidity"></span>%</li>
+								<li>Wind: <span id="wind"></span> MPH</li>
 							</ul>
 						</div>
 					</div>
