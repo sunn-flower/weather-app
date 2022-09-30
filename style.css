@@ -1,6 +1,7 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: #3d405b;
+	background-color: #f4f1de;
 }
 
 h1 {
@@ -31,7 +32,7 @@ li:first-letter {
 
 .weather-widget {
 	padding: 30px;
-	border: 2px solid #3d405b;
+	border: 3px solid #f2cc8f;
 	border-radius: 10px;
 	background-color: #81b29a;
 }
@@ -64,7 +65,7 @@ li:first-letter {
 
 #search-button {
 	margin-top: 3px;
-	color: #3d405b;
+	background-color: #f2cc8f;
 }
 
 #current-overview {
