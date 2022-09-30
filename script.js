@@ -22,6 +22,7 @@ function formatDate(timestamp) {
 }
 
 function displayTemperature(response) {
+	console.log(response.data);
 	let dateTime = document.querySelector("#date-time");
 	let currentTemperature = document.querySelector("#current-temperature");
 	let currentCity = document.querySelector("#current-city");
@@ -40,6 +41,7 @@ function displayTemperature(response) {
 		"src",
 		`http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
 	);
+	currentWeatherIcon.setAttribute("alt", response.data.weather[0].description);
 }
 
 let weatherKey = "23e5c32242e8082ee2e13b831cfd6fb5";
