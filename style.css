@@ -73,9 +73,9 @@ li:first-letter {
 }
 
 #current-weather-icon {
-	width: 50px;
-	margin-right: 5px;
-	margin-top: 5px;
+	width: 80px;
+	position: relative;
+	top: -10px;
 }
 
 #current-temperature {
