@@ -20,8 +20,7 @@
 				<div class="weather-widget">
 					<form id="search-form">
 						<div class="row">
-							<div class="col-10">
-								<form id="search-form">
+							<div class="col-9">
 								<input
 									type="search"
 									placeholder="Type a city name.."
@@ -30,11 +29,12 @@
 									id="search-input"
 								/>
 							</div>
-							<div class="col-2">
-								<input type="submit" value="search" id="search-button"  />
+							<div class="col-3">
+								<input type="submit" value="search" id="search-button" />
 							</div>
 						</div>
 					</form>
+
 					<h1 id="current-city"></h1>
 					<ul id="current-overview">
 						<li>Last updated: <span id="date-time"></span></li>
@@ -47,7 +47,8 @@
 								<div>
 									<strong id="current-temperature"></strong>
 									<span class="units"
-										>°F | <a href="#" id="unit-link">°C</a></span
+										><a href="#" id="fahrenheit-link" class="active">°F</a> |
+										<a href="#" id="celsius-link">°C</a></span
 									>
 								</div>
 							</div>
