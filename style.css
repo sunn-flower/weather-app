@@ -1,6 +1,6 @@
 body {
 	font-family: Arial, Helvetica, sans-serif;
-	color: #3d405b;
+	color: #48484a;
 	background-color: #f4f1de;
 }
 
@@ -33,14 +33,16 @@ li:first-letter {
 a {
 	color: #f2cc8f;
 	text-decoration: none;
+	font-weight: bold;
 }
 
 a:hover {
-	color: #e07a5f;
+	color: #e07a7b;
+	font-weight: 100px;
 }
 
 small a {
-	color: #e07a5f;
+	color: #e07a7b;
 	font-weight: bold;
 }
 
@@ -65,14 +67,14 @@ small a:hover {
 }
 
 .active {
-	color: #3d405b;
+	color: #48484a;
 	cursor: default;
 	text-decoration: none;
 }
 
 .active:hover {
 	text-decoration: none;
-	color: #3d405b;
+	color: #48484a;
 }
 
 .code-info {
@@ -89,7 +91,7 @@ small a:hover {
 }
 
 #search-form {
-	margin-bottom: 20px;
+	margin-bottom: 35px;
 }
 
 #search-button {
