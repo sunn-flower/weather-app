@@ -21,6 +21,11 @@ function formatDate(timestamp) {
 	return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+	let forecastElement = document.querySelector("#forecast");
+	forecastElement.innerHTML = "forecast";
+}
+
 function displayTemperature(response) {
 	let dateTime = document.querySelector("#date-time");
 	let currentTemperature = document.querySelector("#current-temperature");
@@ -77,6 +82,8 @@ function displayFahrenheitTemp(event) {
 }
 
 search("New York");
+
+displayForecast();
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
